@@ -1,13 +1,13 @@
 package samples.demo;
 
 public class Location {
-	private int test;
+
 	public int test2;
 	public int getTest() {
-		return test;
+		return test2;
 	}
 
-	public void setTest(int test) {
-		this.test = test;
+	public void setTest(int test2) {
+		this.test2 = test2;
 	}
 }
