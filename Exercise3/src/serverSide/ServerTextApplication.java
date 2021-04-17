@@ -55,7 +55,7 @@ public class ServerTextApplication {
 					
 					// Close the socket
 					clientSocket.close();
-					//serverSocket.close();
+					serverSocket.close();
 					oos.close();
 					
 					// Update the request status
